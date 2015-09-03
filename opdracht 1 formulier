@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="$1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Opleiding</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+    	<h1>Aanmelden</h1>
+
+    	<p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+    	Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+        <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+
+        <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+        Voor vragen of opmerkingen kunt u contact <a href="https://cmd.dmci.hva.nl/NL/algemeen/Paginas/Wie%20wat%20waar.aspx">Contact</a> met ons op.!</p>
+
+        <p>Contactgegevens</p>
+        <form>
+            Naam
+            <input type="text" name="firstname">
+            Bedrijf
+            <input type="text" name="lastname">
+            Adres
+            <input type="text" name="adres">
+            Postcode
+            <input type="text" name="zipcode">
+            Plaats
+            <input type="text" name="city">
+            Telefoon
+            <input type="text" name="phonenumber">
+            Email
+            <input type="text" name="emailadres">
+        </form>
+
+        <p>Ik wil mijn aanmelden:</p>
+        <form>
+            <input type="radio" name="choice" value="project"> Voor een project
+            <input type="radio" name="choice" value="stagebedrijf"> Als stagebedrijf
+        </form>
+
+        <h2 >Project</h2>
+        <form>
+            <ol>
+                <li>Titel
+                <input type="text" name="titel"></li>
+                <li>Opdrachtomschrijving
+                <input type="text" name="opdracht"></li>
+                <li>Doelgroepomschrijving
+                <input type="text" name="doelgroep"></li>
+                <li>Doelstelling/ intentie van het project
+                <input type="text" name="doel"></li>
+                <li>Looptijd
+                <input type="text" name="duur"></li>
+                <li>Deadline
+                <input type="text" name="deadline"></li>
+            </ol>
+        </form>
+        <p>Geschikt voor</p>
+            <ol>
+                <li><input type="radio" name="choice" value="studentproject"> eerstejaars studenten</li>
+                <li><input type="radio" name="choice" value="studentproject"> tweedejaars studenten</li>
+                <li><input type="radio" name="choice" value="studentproject"> derdejaards studenten</li>
+                <li><input type="radio" name="choice" value="studentproject"> afstudeer studenten</li>
+                <li><input type="radio" name="choice" value="studentproject"> onbekend</li>
+        </ol>
+
+        <form>
+            <p>Opmerking</p>
+            <input type="text" name="projectopmerking">
+        </form>
+
+        <h2>Stage</h2>
+        <p>Geschikt voor</p>
+        <ol>
+            <li><input type="radio" name="choice" value="studentstage"> tweedejaars studenten</li>
+            <li><input type="radio" name="choice" value="studentstage"> afstudeer studenten</li>
+            <li><input type="radio" name="choice" value="studentstage"> onbekend</li>
+        </ol>
+
+        <form>
+        <ol>
+            <li>Hoe lang is de stage?
+            <input type="radio" name="choice" value="duur"> 10 weken
+            <input type="radio" name="choice" value="duur"> 20 weken</li>
+            <li>Begin datum
+            <input type="text" name="begindatum"></li>
+        </ol>
+        </form>
+
+        <p>Beschrijving werkzaamheden:</p>
+        <form>
+            <ol>
+                <li>Beschrijving stagewerkzaamheden
+                <input type="text" name="werkzaamheden"></li>
+            </ol>
+        </form>
+
+        <p>Beschrijving stagebedrijf</p>
+        <form>
+            <ol>
+                <li>Bedrijfsnaam
+                <input type="text" name="bedrijfsnaam"></li>
+                <li>Adres
+                <input type="text" name="bedrijfsadres"></li>
+                <li>Postcode
+                <input type="text" name="bedrijfspostcode"></li>
+                <li>Plaats
+                <input type="text" name="bedrijfplaats"></li>
+                <li>Sector
+                <input type="text" name="sector"></li>
+                <li>Core Business
+                <input type="text" name="corebusiness"></li>
+            </ol>
+        </form>
+
+        <form>
+            <p>Opmerking</p>
+            <input type="text" name="stageopmerking">
+        </form>
+    </body>
+</html>
