@@ -53,8 +53,9 @@
 
                 <section>
                 <picture>
-                <source srcset="cmd_beeldbank_connected_01.jpg" media="(min-width: 460px)">
-                <img src="cmd_beeldbank_developer_04.jpg" alt="idk">
+                <source srcset="picture_fed_1280.png" media="(min-width: 768px)">
+                <source srcset="picture_fed_800.png" media="(min-width: 414px)">
+                <img src="picture_fed_480.png" alt="idk">
                 </picture>
                     <h3>Ontwerpopleiding voor Interactieve Media</h3>
                     <p>CMD Amsterdam stelt ontwerpen centraal in de opleiding. Zij wil studenten leren te denken als een ontwerper en opleiden tot interactieve media ontwerpers met een goede aansluiting op de huidige én de toekomstige beroepspraktijk.</p>
@@ -247,7 +248,6 @@
             -->
 
         </aside>
-        </div>
         
         <!-- Footer informatie -->
         <footer>
@@ -297,7 +297,9 @@
                     </li>
                 </ul>
             </section>
-
+        </footer>
+    </div>
+    <footer>
             <section id="contact">
                 <h2>Contact</h2>
                 <p>CMD Amsterdam</p>
